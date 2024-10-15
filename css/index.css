@@ -10,7 +10,7 @@ html , body {
     margin: 0;
     padding: 0;
     background-color: #EDEDED;
-    height: 7000px;
+    height: fit-content;
     
 
 }
@@ -291,7 +291,7 @@ main .blog .blogCard .review p{
 
 main .about {
     width: 100%;
-    
+    margin-bottom:90px;
     font-family: "Roboto Mono", monospace;
     
 }
@@ -344,6 +344,7 @@ main .about hr{
     border-radius: 15px;
     margin: auto;
     background-color: #b9b7b7;
+
  }
 
 
@@ -351,6 +352,55 @@ main .about hr{
 
 
 
+footer{
+    height: 300px;
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+   
+}
+
+
+
+
+
+footer .socialMediaIcon{
+    margin-right:120px;
+    height: 24px;
+    width: fit-content;
+}
+
+footer .socialMediaIcon > *{
+    height: 24px;
+}
+
+footer .listes{
+    margin-top:-10px ;
+    display: flex;
+    width: 740px;
+    justify-content: space-between;
+
+}
+
+
+footer .listes ul{
+   
+      list-style: none;
+
+}
+
+footer .listes ul li{
+   
+    font-family: "Poppins", sans-serif; 
+    margin-bottom: 15px;
+
+}
+footer .listes ul li:first-of-type{
+   
+    font-weight: 500;
+        margin-bottom: 30px;
+
+}
 
 
 
