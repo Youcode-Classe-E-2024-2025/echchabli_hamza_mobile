@@ -180,10 +180,26 @@ main .contactUs hr{
     border: solid 1px #b9b7b7;
     height: 50px;
     width:660px;
+
+ } 
+
+ main .contactUs form input:last-child{
+    height: 150px;
+    margin-bottom: 100px;
+    
  } 
 
 
-
+ main .contactUs form button{
+    height: 80px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    margin: auto;
+    
+ } 
 
 
 
