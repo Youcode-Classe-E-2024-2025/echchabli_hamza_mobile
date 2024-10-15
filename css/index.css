@@ -1,0 +1,200 @@
+html , body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    height: 3000px;
+
+}
+
+nav{
+    height: 123px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+
+
+
+nav .logo{
+    font-size: 53px;
+    margin-left:43px;
+
+}
+
+nav ul{
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    font-size: 35px;
+
+}
+nav ul li  img{
+    height: 40px;
+
+}
+nav ul li  a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+header{
+    width: 100%;
+    height: fit-content;
+}
+header img{
+    width: 100%;
+}
+main{
+    padding-top: 30px;
+    width: 100%;
+}
+
+main .ourProduct hr{
+
+   width: 919px;
+   height: 5px;
+   background-color: black;
+   margin-bottom: 130px;
+
+
+}
+main .ourProduct h1{
+
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 68px;
+    font-size: 96px;
+    margin-bottom: 100px;
+}
+
+
+main .ourProduct .cards{
+    width: 100%;
+    height: fit-content;
+    /* background-color:blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64px;
+   
+
+}
+
+main .ourProduct .cards .card{
+   
+    width: 311px;
+    height: 460px;
+    background-color:#ffffff;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    
+}
+main .ourProduct .cards .card .container{
+
+    width: fit-content;
+    margin-top: 32px;
+
+ 
+}
+main .ourProduct .cards .card img{
+ 
+      margin-bottom: 30px;
+     
+    width: 201px;
+    height: 251px;
+    
+
+}
+
+main .ourProduct .cards .card .container p:nth-of-type(1) {
+    font-size: 31px;
+    margin: 0px;
+     margin-bottom: 20px;
+}
+main .ourProduct .cards .card .container p:last-child{
+   
+
+    font-size: 31px;
+    margin: 0px;
+   
+
+}
+
+
+
+
+
+
+main.contactUs {
+    width: 100%;
+}
+main .contactUs hr{
+
+    width: 919px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 130px;
+ 
+ 
+ }
+ main .contactUs h1{
+ 
+     width: fit-content;
+     height: fit-content;
+     margin: auto;
+     margin-top: 68px;
+     font-size: 96px;
+     margin-bottom: 100px;
+ }
+ main .contactUs form {
+
+    margin: auto;
+    width: fit-content;
+
+
+ }
+
+
+
+ main .contactUs form > *{
+       
+     display: block;
+    
+ }
+
+ main .contactUs form label{
+    margin-bottom: 20px;
+ } 
+ main .contactUs form input{
+    margin-bottom: 45px;
+    border-radius: 5px;
+    border: solid 1px #b9b7b7;
+    height: 50px;
+    width:660px;
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
