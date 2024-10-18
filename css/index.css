@@ -110,6 +110,19 @@ main .ourProduct .cards .card{
     justify-content: center;
     
 }
+main .ourProduct .cards .card:hover{
+   
+    border: 10px solid rgb(199, 3, 3);
+    cursor: pointer;
+    height: 440px;
+   
+    width: 291px;
+    background-color:#ffffff;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    
+}
 main .ourProduct .cards .card .container{
 
     width: fit-content;
@@ -215,6 +228,16 @@ main .contactUs hr{
     
  } 
 
+ 
+ main .contactUs form button:hover{
+    
+    background-color: rgb(211, 210, 210);
+    color: #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+    
+ } 
 
 
 
@@ -371,6 +394,7 @@ footer .socialMediaIcon{
 }
 
 footer .socialMediaIcon > *{
+    cursor: pointer;
     height: 24px;
 }
 
